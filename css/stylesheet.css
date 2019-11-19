@@ -1,0 +1,272 @@
+*{margin: 0;padding: 0;}
+.container{width:85%;margin:auto;}
+/*navbar*/
+
+.basic{
+    width:100%;
+    height:2cm;
+    background-color:#222222;
+    color: white;
+    overflow: hidden;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+   
+}
+
+.basic h2 {font:italic 25px Impact, sans-serif;
+          float: left;
+          padding-top:20px;
+          text-transform: uppercase;
+}
+span {color:blue;}
+.ul{
+    padding-left:1cm;
+    font-size:16px;
+    
+    float: left;
+}
+
+.li{ 
+    float: left;
+    padding-top:30px;
+    margin-right:0.1cm;
+    padding-right:0.6cm ;
+    height:100%;
+   }
+  
+.basic img {height:9px;float: right;padding:3px 2px;}
+.more ul{list-style: none;color: white;background-color: #222222;z-index: 1;}
+
+
+
+
+
+
+
+.li:hover{background-color:#1FA3FF;}
+.more{
+    float: right;
+    padding-top:30px;
+    height: 2cm;
+}
+.more:hover{background-color: #1FA3FF;}
+
+
+/*don't forget dropdown */
+
+.background{height:14.4cm;font-family: Arial, Helvetica, sans-serif;}
+.background img{
+    width:100%;
+    height:100%;
+    background-size:cover ;
+    background-attachment: fixed;
+    
+}
+.background h2{
+    color:white;
+    position: absolute;
+    top:52%;
+    left:30%;
+    transform: translate(-50%,-50%);
+    border-top:3px solid white;
+    
+}
+.background button{
+    background:none;
+    width:4cm;
+    padding:3px 5px ;
+    position: absolute;
+    top: 57%;
+    left:28%;
+    border:2px solid white;
+    color: white;
+    font:normal 14px arial ,sans-serif;
+    transition:0.5s;
+}
+.background button:hover{transform:scale(1.2);
+    background-color: rgba(255, 68, 0, 0.959);
+    
+    border:1px solid white;
+}
+.background button:active{transform:scale(1.1);background-color:rgba(192, 53, 3, 0.863);}
+/*dont forget hover to the button in red as you could*/
+
+.backg-1{background-color:#3EB1FF;
+    height:10cm;
+    font:normal 15px arial ,sans-serif;
+    color: white;
+}
+
+.cont{
+    margin-top:60px;;
+    width:12cm;
+    height:7.5cm;
+    float: right;
+    border: 2px solid white;
+}
+.hoverr{overflow:hidden; 
+    position: relative;}
+
+.hoverr img{width:100%;
+            height:100%;
+            transition:1.2s;
+            
+}
+
+.cont .test{
+    position: absolute;
+    width:100%;
+    height:100%;
+    top: 0;
+    left:-100%;
+    transition: 0.5s;
+    background-color: #680b0ba8;
+    font:bold 14px arial black;
+}
+.cont:hover .test{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left:0%;
+}
+.cont:hover img{transform:scale(1.2);}
+
+
+
+.text-1{width:35%;
+    padding-top: 75px;
+    margin-left: 20%;}
+.text-1 p{margin-top:20px;font-family: 'Courier New', Courier, monospace;}
+
+/*don't forget img hover*/
+
+.backg-2{
+    background-color:rgba(207, 207, 207, 0.911);
+    height:9cm;
+}
+.backg-2 img{
+    max-height:4.5cm ;
+    margin-top: 60px;
+    float:right;
+    margin-right:1cm;
+    border:4px solid white;
+}
+.type-menu{max-width:7cm;
+           max-height:4.5cm;
+           padding-top:60px;
+           margin-left:30%;
+}
+.type-menu>div{margin-top:20px;}
+.color-title{background-color: #EEEEEE;
+             font:normal 12px Trebuchet MS;
+             color:#6e5c5c;
+             
+             transition:0.5s;
+ }
+ .color-parag{display:none;
+    background-color:white;
+    border:3px solid #EEEEEE;
+    font:normal 14px impact;
+    
+}
+.color-title h1{font:bold 18px arial,sans-serif;color: #535353;text-decoration:underline;}
+.color-title:hover .color-parag{display:block;}
+
+
+/*Features*/
+.backg-3{margin-left:20%;}
+.feat{
+    width:35%;
+    float: left;
+    font:normal 12px arial sans-serif;
+    padding-right:30px;
+    padding-top:30px ;
+    color:#787878;
+}
+.feat img{width:60px;
+    margin-bottom:30px;
+    padding-left:100px;
+}
+.clear{clear: both;}
+.feat h3{
+    text-align:center;
+    font:normal 20px Trebuchet MS;
+    text-decoration:underline;
+    padding-bottom:30px;
+}
+.feat p{font:normal 14px Trebuchet MS;}
+
+/*next part*/
+.backg-4{height:7cm;
+    margin-top:60px;
+    background-image: url(../images/cover.png);
+}
+.backg-4>div{
+    
+    width:6cm;
+    height:3cm;
+    margin: auto;
+    padding-top:75px;
+}
+.backg-4 h4{font:normal 22px Trebuchet MS;
+       color:white;
+background-color: #16CC53;
+width:6cm;
+height:3cm;
+padding:30px 0 0 10px;
+}
+/*next part*/
+
+.backg-5{
+    background-color:rgba(207, 207, 207, 0.911);
+}
+.text-1{color:#6e5c5c;
+        font:normal 16px Trebuchet MS;
+}
+.text-1 h3{font:italic 25px;border-bottom:3px solid #787878;}
+
+.image-1{padding-top:30px;padding-left:20px;}
+.image-1 img{
+    width:300px;
+    height:300px;
+    margin-left:20px;
+    margin-top:20px;
+    border:2px solid white;
+    background-color: rgb(255, 255, 255);
+    opacity:100%;
+    transition:0.5s;
+}
+.image-1 img:hover{
+    opacity:40%;
+    transform:scale(1.08);
+} 
+
+/*next part*/
+
+.backg-6{
+    background-color:#F9F9F9;
+    color:#696969;
+    margin-top:60px;
+    font:normal 15px Trebuchet MS;
+}
+.all{width:30%;margin-left:16px;float:left;}
+.all h3{font:normal 20px Trebuchet MS;text-decoration:underline;margin-bottom:30px;}
+.E-mail{background-color:#DDDDDD;margin-top:20px;}
+.E-mail input {width:75%;height:0.7cm;}
+.E-mail button{width:23.5%;
+    height:0.9cm;
+    background-color:rgb(189, 188, 188);
+    color:white;
+    border:3px solid rgb(189, 188, 188);
+}
+.social-media{
+    margin-left: 40%;
+    margin-top: 30px;
+}
+.social-media img{margin-left:20px;}
+.social-media img:hover{transform: scale(1.05);}
+.backg-6 h5 {
+    margin-top:30px;
+    text-align:center;
+    
+}
